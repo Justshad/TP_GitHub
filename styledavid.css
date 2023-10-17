@@ -52,3 +52,35 @@ main {
     color: #4CAF50;
     margin-top: 0.5rem;
 }
+
+.bouton-acheter {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bouton-acheter:hover {
+    background-color: #45a049;
+}
+
+.bouton-accueil {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.bouton-accueil:hover {
+    background-color: #45a049;
+}
+
