@@ -25,7 +25,7 @@ main {
     margin: 1rem;
     padding: 1rem;
     background-color: white; /* Fond blanc pour chaque produit */
-    border: 2px solid #000000; /* Bordure autour de chaque produit */
+    border: 1px solid #000000; /* Bordure autour de chaque produit */
     border-radius: 5px;
     text-align: center;
     transition: transform 0.3s ease; /* Ajout d'une transition pour un effet d'animation au survol */
