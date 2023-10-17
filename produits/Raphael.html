@@ -4,13 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Votre Boutique en Ligne</title>
+    <title>Fastfood - Votre Boutique en Ligne</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <style>
+        /* Effet de survol pour les cartes de produits */
+        .card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+    </style>
 </head>
 
 <body>
     <header class="bg-dark text-white text-center py-3">
-        <h1>Votre Boutique en Ligne</h1>
+        <h1>Fastfood - Votre Boutique en Ligne</h1>
     </header>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -36,44 +43,48 @@
         </div>
     </nav>
 
+    <!-- Carrousel d'images -->
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image1.jpg" class="d-block w-100" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="image2.jpg" class="d-block w-100" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="image3.jpg" class="d-block w-100" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="image4.jpg" class="d-block w-100" alt="Image 4">
+            </div>
+            <div class="carousel-item">
+                <img src="image5.jpg" class="d-block w-100" alt="Image 5">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#imageCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#imageCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
     <section class="container my-4">
         <div class="row">
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="lien" class="card-img-top" alt="Produit 1">
+                    <img src="tacos.jpg" class="card-img-top" alt="Tacos">
                     <div class="card-body">
-                        <h2 class="card-title">Nom du Produit 1</h2>
-                        <p class="card-text">Description du produit 1.</p>
-                        <p class="card-text">Prix : $19.99</p>
-                        <a href="#" class="btn btn-primary">Acheter</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="lien_de_votre_image2.jpg" class="card-img-top" alt="Produit 2">
-                    <div class="card-body">
-                        <h2 class="card-title">Nom du Produit 2</h2>
-                        <p class="card-text">Description du produit 2.</p>
-                        <p class="card-text">Prix : $29.99</p>
-                        <a href="#" class="btn btn-primary">Acheter</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="lien_de_votre_image3.jpg" class="card-img-top" alt="Fastfood">
-                    <div class="card-body">
-                        <h2 class="card-title">Fastfood</h2>
-                        <p class="card-text">Description du fastfood.</p>
+                        <h2 class="card-title">Tacos Délicieux</h2>
+                        <p class="card-text">Découvrez nos délicieux tacos.</p>
                         <p class="card-text">Prix : $9.99</p>
-                        <a href="#" class="btn btn-primary">Acheter</a>
+                        <a href="#" class="btn btn-primary">Commander</a>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
